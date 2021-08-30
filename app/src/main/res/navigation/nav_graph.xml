@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.swapnil.stockify.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboardFragment_to_addStockFragment"
+            app:destination="@id/addStockFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addStockFragment"
+        android:name="com.swapnil.stockify.AddStockFragment"
+        android:label="fragment_add_stock"
+        tools:layout="@layout/fragment_add_stock" />
+</navigation>

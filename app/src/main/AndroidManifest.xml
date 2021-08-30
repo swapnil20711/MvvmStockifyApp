@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MvvmShoppingApp">
         <activity
-            android:name="com.swapnil.stockify.ShoppingActivity"
+            android:name="com.swapnil.stockify.StockActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

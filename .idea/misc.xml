@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MvvmShoppingApp/app/src/main/res/drawable-anydpi/ic_baseline_add.xml" value="0.18072916666666666" />
         <entry key="..\:/MvvmShoppingApp/app/src/main/res/layout/activity_main.xml" value="0.16041666666666668" />
-        <entry key="..\:/MvvmShoppingApp/app/src/main/res/layout/activity_shopping.xml" value="0.16041666666666668" />
+        <entry key="..\:/MvvmShoppingApp/app/src/main/res/layout/activity_shopping.xml" value="0.2" />
+        <entry key="..\:/MvvmShoppingApp/app/src/main/res/layout/fragment_add_stock.xml" value="0.31354166666666666" />
+        <entry key="..\:/MvvmShoppingApp/app/src/main/res/layout/fragment_dashboard.xml" value="0.22" />
       </map>
     </option>
   </component>
