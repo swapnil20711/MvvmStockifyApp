@@ -5,10 +5,10 @@ import androidx.room.PrimaryKey
 
 @Entity(tableName = "portfolio_stocks")
 data class Stock(
-    var title: String,
+    var shareName: String,
     var companySector: String,
-    var sharePrize: Int,
-    var shareQty: Int,
+    var sharePrize: Float,
+    var shareQty: Float,
     var note: String
 ) {
     @PrimaryKey(autoGenerate = true)

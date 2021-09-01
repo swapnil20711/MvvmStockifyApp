@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">Stockify</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_dashboard_fragment">Hello dashboard fragment</string>
     <string name="hello_add_fragment">Hello add fragment</string>
+    <string name="stock_name">Stock Name</string>
+    <string name="company_type">Company type</string>
+    <string name="stock_prize">Stock Prize</string>
+    <string name="stock_qty">Stock Qty</string>
+    <string name="note">Note</string>
+    <string name="save_stock">Save Stock</string>
+    <string name="rupees_symbol">₹</string>
 </resources>

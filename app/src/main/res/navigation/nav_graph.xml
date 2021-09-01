@@ -8,8 +8,8 @@
     <fragment
         android:id="@+id/dashboardFragment"
         android:name="com.swapnil.stockify.DashboardFragment"
-        android:label="fragment_dashboard"
-        tools:layout="@layout/fragment_dashboard" >
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard">
         <action
             android:id="@+id/action_dashboardFragment_to_addStockFragment"
             app:destination="@id/addStockFragment" />
@@ -17,6 +17,10 @@
     <fragment
         android:id="@+id/addStockFragment"
         android:name="com.swapnil.stockify.AddStockFragment"
-        android:label="fragment_add_stock"
-        tools:layout="@layout/fragment_add_stock" />
+        android:label="Add Stock"
+        tools:layout="@layout/fragment_add_stock">
+        <action
+            android:id="@+id/action_addStockFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+    </fragment>
 </navigation>

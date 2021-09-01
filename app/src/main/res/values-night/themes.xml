@@ -3,7 +3,7 @@
     <bool name="lightNavEnabled">true</bool>
 
     <!-- Base application theme. -->
-    <style name="Theme.MvvmShoppingApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <style name="Theme.MvvmShoppingApp" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/blue_500</item>
         <item name="colorPrimaryVariant">@color/white</item>
